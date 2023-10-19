@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Calculo do bitcoin</h1>
+  <a href="https://www.coinlore.com/cryptocurrency-data-api"> url de exemplo</a>
+  <br><br>
+  <label>Quantidade de bitcoins</label>
+  <input type="number" id="qtdBitcoin">
+    <br><br>
+  <script src="script.js"></script>
+  <button id="calcular">Calcular Compra</button>
+  <br><br>
+  <hr>
+  <p>Valor do BitCoin $ <valor></valor></p> 
+  <label>Valor em Dólar</label>
+  <input type="number" id="resultado">
+    <br><br>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
